@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="18dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/simple_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Form"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold" />
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_centerVertical="true" />-->
+    <EditText
+        android:id="@+id/Firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="First Name "
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/FatherName"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Father's Name "
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/MotherName"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mother's Name "
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth "
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/state"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State "
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/city"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City "
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/pin"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pincode "
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact No. "
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/address"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address "
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/save"
+        android:shadowColor="@color/purple_200"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:backgroundTint="@color/teal_700"
+        android:text="Save" />
+
+
+</LinearLayout>
